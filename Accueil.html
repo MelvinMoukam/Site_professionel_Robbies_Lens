@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Accueil - Robbie Lens Photographie</title>
+    <link rel="stylesheet" href="/Css/Accueil.css" />
+    <link rel="stylesheet" href="/Css/Style.css" />
+
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https : //fonts.googleapis.com/css2?family= Abril+Fatface & family= Manrope & family= Montserrat & family= Poppins & display=swap"
+      rel=" stylesheet"
+    />
+  </head>
+
+  <body id="contenu_ancre">
+    <header class="en-tete">
+      <nav>
+        <a href="Accueil.html#contenu_ancre">
+          <img src="../images/logo.png" alt="" class="logo_survol" />
+        </a>
+        <div>
+          <a href="../Accueil.html">Accueil </a>
+          <a href="/dossier-demo/a-propos.html">A propos</a>
+          <a href="../portfolio.html">portfolio </a>
+        </div>
+      </nav>
+    </header>
+    <main>
+      <section class="accueil">
+        <div>
+          <h1>Robbie Lens Photographie</h1>
+          <p>
+            Où <em> professionalisme</em> s'allie avec <em>passion</em> . Depuis
+            plus de 5 ans maintenant, j'exerce mon métier avec la passion qui
+            m'anime : capturer l'essence de chaque instant.
+          </p>
+          <a href="#mon_ancre" class="cta">UN PROJET ? ECRIVEZ-MOI</a>
+        </div>
+
+        <img src="/images/robbie-lens.jpeg" alt="image de Robbie lens" />
+      </section>
+      <section class="container_images_projet">
+        <h2>Mon dernier projet</h2>
+        <div>
+          <img src="/images/element-1.png" alt="" />
+          <img src="/images/element-2.png" alt="" />
+          <img src="/images/element-3.png" alt="" />
+        </div>
+        <div>
+          <img src="/images/element-4.png" alt="" />
+          <img src="/images/element-5.png" alt="" />
+          <img src="/images/element-6.png" alt="" />
+        </div>
+      </section>
+      <section class="section-contact">
+        <h2>Parlons de votre projet</h2>
+        <form action="" method="get" id="mon_ancre">
+          <div class="form-nom-email">
+            <div class="form-column">
+              <label for="nom">Nom</label><br /><input
+                type="text"
+                id="nom"
+                name="nom"
+                required
+                autofocus
+              />
+            </div>
+            <div class="form-column">
+              <label for="mail">Email</label><br /><input
+                type="email"
+                id="mail"
+                name="mail"
+                required
+                autofocus
+              />
+            </div>
+          </div>
+
+          <label for="Message">Message</label><br /><textarea
+            id="Message"
+            name="Message"
+            rows="10"
+          ></textarea>
+          <input type="submit" value="ENVOYER" class="cta" />
+        </form>
+      </section>
+    </main>
+    <footer class="pied-de-page">
+      <a href="/Accueil.html#contenu_ancre" class="logo_survol">
+        <img src="../images/logo.png" alt="" />
+      </a>
+      <div>
+        <a href="https://www.instagram.com/" target="_blank" class="logo_survol"
+          ><img src="/images/instagram.png" alt="icone instagram"
+        /></a>
+        <a href="https://twitter.com/" target="_blank" class="logo_survol">
+          <img src="/images/twitter.png" alt="icone twitter" />
+        </a>
+      </div>
+    </footer>
+  </body>
+</html>
